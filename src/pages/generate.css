@@ -1,0 +1,119 @@
+.gen{
+    height: 80%;
+}
+::placeholder{
+    color: white;
+}
+.generate {
+    background: url(https://source.unsplash.com/TV2gg2kZD1o/1600x800);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    width: 97%;
+    height: 450px;
+    color: white;
+    box-shadow: 3px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    z-index: 1; 
+  }
+  
+  .info {
+    width: 30%;
+    background: rgba(20, 20, 20, 0.8);
+    padding: 30px 0;
+    text-align: center;
+    margin-left: 20px;
+    border: #f6e51c 1px solid;
+    margin-bottom: 20px;
+  }
+  
+  .info h2 {
+    padding-top: 30px;
+    font-weight: 300;
+  }
+  
+  .info p {
+    font-size: 18px;
+  }
+  
+  .info .icon {
+    font-size: 8em;
+    padding: 20px 0;
+    color: #f6e51c;
+  }
+  
+  .genForm {
+    width: 100%;
+    height: 200px;
+    padding: 30px 0;
+    background: rgba(246,229,28,0.1);
+    text-align: center;
+    transition: 0.2s;
+  }
+  
+  .genForm h2 {
+    font-weight: 300;
+  }
+  .left{
+    float: left;
+  }
+  .left2{
+    float: left;
+    padding: 20px;
+  }
+  .align-left{
+    margin-left: 500px;
+  }
+  .inputFields {
+    margin: 15px 0;
+    font-size: 16px;
+    padding: 10px;
+    width: 270px;
+    border: 1px solid #f6e51c;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgba(20, 20, 20, 0.2);
+    color: white;
+    outline: none;
+  }
+  
+  .noBullet {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #generate-btn {
+    border: 1px solid #f6e51c;
+    background: rgba(20, 20, 20, 0.6);
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 50px;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  #generate-btn:hover {
+    background: rgba(20, 20, 20, 0.8);
+    padding: 10px 80px;
+  }
+  #download-btn {
+    border: 1px solid #f6e51c;
+    background: rgba(20, 20, 20, 0.6);
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 50px;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  #download-btn:hover {
+    background: rgba(20, 20, 20, 0.8);
+    padding: 10px 80px;
+  }
